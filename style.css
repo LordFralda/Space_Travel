@@ -13,12 +13,16 @@ main{
   left: 150px;
 }
 
-imagem{
-  position: absolute;
-  padding-bottom: 0%;
-  
-
+.imagem {
+  position: relative; 
+  text-align: center; 
 }
+
+.imagem img {
+  display: inline-block; 
+  margin: auto; 
+}
+
 
 
 
