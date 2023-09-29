@@ -97,16 +97,16 @@ function movimentaOvni() {
 }
 
 function movimentaNave() {
-  if (keyIsDown(UP_ARROW)) {
+  if (keyIsDown(87)) {
     yNave -= 3;
   }
-  if (keyIsDown(DOWN_ARROW)) {
+  if (keyIsDown(83)) {
     yNave += 3;
   }
-  if (keyIsDown(RIGHT_ARROW)) {
+  if (keyIsDown(68)) {
     xNave += 3;
   }
-  if (keyIsDown(LEFT_ARROW)) {
+  if (keyIsDown(65)) {
     xNave -= 3;
   }
 }
